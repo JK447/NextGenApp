@@ -14,4 +14,4 @@ export const GET = async () => {
   return NextResponse.json({ tasks }, { status: 200 });
 };
 
-export const dynamic = "force-dynamic";
+export const dynamic = "force-dynamic";//動的にレンダリング
